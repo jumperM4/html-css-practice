@@ -39,23 +39,13 @@
     color: #FFFFFF;
 }
 
-.button_container {
+.footer_button {
     position: absolute;
     width: 261px;
     height: 56px;
     margin: 101px 50px 40px 616px;
-
-    background: #FFFFFF;
-    border-radius: 4px;
-}
-
-.footer_button {
-    position: absolute;
-    height: 16px;
-    left: 14.48%;
-    right: 15.02%;
-    top: calc(50% - 16px/2);
     border: none;
+    border-radius: 4px;
 
     font-family: 'Montserrat';
     font-style: normal;
