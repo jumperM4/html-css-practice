@@ -1,0 +1,67 @@
+.footer_container {
+    position: relative;
+    width: 927px;
+    height: 197px;
+
+    background: #0079C8;
+    border-radius: 4px;
+}
+
+.footer_title {
+    position: absolute;
+    width: 273px;
+    height: 20px;
+
+    margin: 40px 607.81px 137px 52.19px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.footer_text {
+    position: absolute;
+    width: 483px;
+    height: 87px;
+
+    margin: 80px 394px 30px 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.button_container {
+    position: absolute;
+    width: 261px;
+    height: 56px;
+    margin: 101px 50px 40px 616px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.footer_button {
+    position: absolute;
+    height: 16px;
+    left: 14.48%;
+    right: 15.02%;
+    top: calc(50% - 16px/2);
+    border: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #0079C8;
+}
