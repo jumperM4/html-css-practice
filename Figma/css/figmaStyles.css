@@ -533,12 +533,17 @@ img {
     height: auto;
 }
 
-/* Header styles start */
-
 .wrapper {
     max-width: 1060px;
     margin: 0px auto;
 }
+
+.wrapper_full {
+    width: 1262px;
+    margin: 0 auto;
+}
+
+/* Header styles start */
 
 .header {
     position: fixed;
