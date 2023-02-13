@@ -790,6 +790,7 @@ img {
 .places__view-all:hover,
 .places__view-all:focus {
     opacity: .65;
+    background: url(../img/svg/arrow-icon.svg) no-repeat right center;
 }
 
 .places__cards {
