@@ -956,7 +956,7 @@ img {
 
 .top__cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 57px;
 }
 
@@ -968,6 +968,7 @@ img {
 .top__card {
     display: flex;
     flex-direction: column;
+    grid-column: span 2;
 }
 
 .top__card-stats {
@@ -1108,7 +1109,110 @@ img {
 
 /* Media start */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 0px 20px;
+    }
+
+    .intro {
+        margin-bottom: 5px;
+    }
+
+    .wrapper {
+        padding: 0px 20px;
+    }
+
+    .search-form__field {
+        margin-right: 40px;
+    }
+
+    .search-form__submit {
+        margin-top: 20px;
+    }
+
+    .benefits {
+        margin-bottom: 70px;
+    }
+
+    .benefits__wrap {
+        box-shadow: none;
+    }
+
+    .benefits__title {
+        padding: 50px 100px;
+    }
+
+    .benefits__cards {
+        padding: 0px 50px;
+        grid-column-gap: 40px;
+    }
+
+    .benefits__card {
+        margin-bottom: 60px;
+    }
+
+    .wrapper__full {
+        width: auto;
+        padding: 0px 20px;
+    }
+
+    .places__card-size-lg {
+        grid-column: span 6;
+    }
+
+    .places__card-size-sm {
+        grid-column: span 6;
+    }
+
+    .tours {
+        margin-bottom: 100px;
+    }
+
+    .tours__tour {
+        gap: 0px 50px;
+        margin-bottom: 50px;
+    }
+
+    .tour__info {
+        padding-left: 20px;
+    }
+
+    .tour__title {
+        margin-bottom: 20px;
+    }
+
+    .tour__description {
+        margin-bottom: 20px;
+    }
+
+    .top__title {
+        margin-bottom: 25px;
+    }
+
+    .top__cards {
+        gap: 30px;
+    }
+
+    .top__card {
+        grid-column: span 3;
+    }
+
+    .top__card-more {
+        margin-bottom: 10px;
+    }
+
+    .top__card-pic {
+        margin-bottom: 20px;
+    }
+
+    .top__card-desc {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding: 60px 0;
+    }
+
     .header__burger {
         display: block;
     }
