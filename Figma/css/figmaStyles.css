@@ -1077,3 +1077,25 @@ img {
 }
 
 /* Footer styles end */
+
+@media screen and (max-width: 960px) {
+    .search-form__field {
+        margin-bottom: 25px;
+    }
+
+    .benefits {
+        margin-bottom: 50px;
+    }
+
+    .benefits__cards {
+        padding: 0 15px;
+    }
+
+    .benefits__card {
+        margin-bottom: 50px;
+    }
+
+    .benefits__wrap {
+        box-shadow: none;
+    }
+}
